@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="./images/favicon.ico">
 
-    <title>{% block title %}{% endblock %}</title>
+    <title>Copper Mountain Conference on Iterative and Multigrid Methods</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,23 +21,15 @@
 
   <div class="container">
       <div class="d-block mx-auto main-block">
-      <h1 class="title">18th Copper Mountain Conference On</h1>
-      <h1 class="title">Multigrid Methods</h1>
+      <h1 class="title">Copper Mountain Conference On</h1>
+      <h1 class="title">Iterative and Multigrid Methods</h1>
       </div>
   </div>
 
   <div class="container">
-      <div class="d-block mx-auto main-block">
-        <h2 class="title">Copper Mountain, Colorado</h2>
-      </div >
-      <div class="d-block mx-auto main-block">
-        <h2 class="title" style="color: #110000;"><a href="http://easychair.org/smart-program/Copper2017/index.html">**Program**</a></h2>
-        <h2 class="title" style="color: #110000;"><a href="./program-static/index.html">**Program (archive)**</a></h2>
-      </div >
-
-    <div class="row">
-      <div class="col-xs-12 col-sm-6">
-        <div class="card">
+    <div class="row row-top">
+        <div class="col-sm-12 my-auto">
+            <div class="card w-50 mx-auto">
           <!-- from https://commons.wikimedia.org/wiki/File:Copper_Trail.jpg retrieved on 20160711 -->
           <!-- This work has been released into the public domain by its
             author, DebateLord at English Wikipedia. This applies worldwide.
@@ -45,8 +37,77 @@
             anyone the right to use this work for any purpose, without any conditions,
             unless such conditions are required by law. -->
           <img class="img-fluid img-rounded" src="./images/640px-Copper_Trail.jpg" alt="Copper Mountain">
+            </div>
         </div>
-      </div>
+    </div>
+    <div class="row row-top">
+        <div class="col-sm-2 my-auto">
+        </div>
+        <div class="col-sm-8 my-auto">
+                <h2 class="title">The next conference...</h2>
+                <div class="alert alert-success" role="alert">
+                  {% for c in conferences %}
+                  {% if c.status %}
+                      {% if c.status.lower() == 'current'%}
+                      <strong>{{c.dates}}</strong> <a href="{{c.url}}">{{c.title}}</a>
+                      {% endif %}
+                  {% endif %}
+                  {% endfor %}
+                </div>
+                <h2 class="title">Upcoming conferences...</h2>
+                  <ul>
+                  {% for c in conferences %}
+                  {% if c.status %}
+                      {% if c.status.lower() == 'upcoming'%}
+                      <li>{{c.title}}: {{c.dates}}</li>
+                      {% endif %}
+                  {% endif %}
+                  {% endfor %}
+                  </ul>
+        </div>
+        <div class="col-sm-2 my-auto">
+        </div>
+    </div>
+
+    <div class="row row-top">
+        <div class="col-sm-3 my-auto">
+        </div>
+        <div class="col-sm-6 my-auto">
+                <h2 class="title">Previous conferences...</h2>
+                <table class="table table-sm table-condensed table-hover">
+                    <tbody>
+                            <thead>
+      <tr>
+        <th>Date</th>
+        <th>Conference</th>
+        <th>Special Issue</th>
+      </tr>
+    </thead>
+      {% for c in conferences %}
+      {% if not c.status %}
+          <tr>
+            <td><b>{{c.year}}</b></td>
+            <td style="width: 300px">
+            {% if c.url %}
+            <a href="{{c.url}}">{{c.title}}</a>
+            {% else %}
+            {{c.title}}
+            {% endif %}
+            </td>
+            <td>
+              {% if c.journal %}
+              <span class="fa fa-book"></span> <a href="{{c['journal-url']}}"> {{c['journal-abbv']}} Special Issue </a>
+              {% endif %}
+            </td>
+          </tr>
+      {% endif %}
+      {% endfor %}
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+        <div class="col-sm-3 my-auto">
+        </div>
     </div>
   </div>
 
