@@ -59,7 +59,15 @@
                   {% for c in conferences %}
                   {% if c.status %}
                       {% if c.status.lower() == 'upcoming'%}
-                      <li>{{c.title}}: {{c.dates}}</li>
+                        <li>
+                          {% if c.url %}
+                            <a href="{{c.url}}">
+                          {% endif %}
+                          {{c.title}}
+                          {% if c.url %}
+                            </a>
+                          {% endif %}
+                        : {{c.dates}}</li>
                       {% endif %}
                   {% endif %}
                   {% endfor %}

@@ -1,4 +1,4 @@
 .*.swp
-live
+live*
 .DS_Store
 sync-to-grandmaster
