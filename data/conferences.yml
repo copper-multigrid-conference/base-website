@@ -7,14 +7,18 @@
   status:
   dates:
 
+- year: 2021
+  title: 20th Copper Mountain Conference On Multigrid Methods
+  status: upcoming
+  dates: March 28 - April 1, 2021
+
 - year: 2020
   title: 16th Copper Mountain Conference On Iterative Methods
-  status: upcoming
-  dates: March 15 - 20, 2020
+  status: current
+  dates: March 21 - 26, 2020 (Saturday - Thursday)
 
 - year: 2019
   title: 19th Copper Mountain Conference On Multigrid Methods
-  status: current
   dates: March 24 - March 28, 2019
   url: http://grandmaster.colorado.edu/~copper/2019/
 
