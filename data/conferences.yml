@@ -26,18 +26,30 @@
   title: 15th Copper Mountain Conference On Iterative Methods
   url: http://grandmaster.colorado.edu/~copper/2018/
   dates: March 25 - March 30, 2018
+  journal: SIAM Journal on Scientific Computing
+  journal-abbv: SISC
+  journal-url: https://epubs.siam.org/toc/sjoce3/41/5
 
 - year: 2017
   title: 18th Copper Mountain Conference On Multigrid Methods
   url: http://grandmaster.colorado.edu/~copper/2017/
+  journal: Numerical Linear Algebra with Applications
+  journal-abbv: NLAA
+  journal-url: https://onlinelibrary.wiley.com/toc/10991506/2018/25/3
 
 - year: 2016
   title: 14th Copper Mountain Conference On Iterative Methods
   url: http://grandmaster.colorado.edu/~copper/2016/
+  journal: SIAM Journal on Scientific Computing
+  journal-abbv: SISC
+  journal-url: https://epubs.siam.org/toc/sjoce3/39/5
 
 - year: 2015
   title: 17th Copper Mountain Conference On Multigrid Methods
   url: http://grandmaster.colorado.edu/~copper/2015/
+  journal: Numerical Linear Algebra with Applications
+  journal-abbv: NLAA
+  journal-url: https://onlinelibrary.wiley.com/toc/10991506/2017/24/3
 
 - year: 2014
   title: 13th Copper Mountain Conference On Iterative Methods
