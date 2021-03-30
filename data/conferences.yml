@@ -192,11 +192,17 @@
   journal-abbv: SISC
   journal-url: http://epubs.siam.org/toc/sjoce3/17/1
 
+- year: 1993
+  title: 6th Copper Mountain Conference On Multigrid Methods
+
 - year: 1992
   title: 2nd Copper Mountain Conference on Iterative Methods in Numerical Linear Algebra
   journal: SIAM Journal on Scientific Computing
   journal-abbv: SISC
   journal-url: http://epubs.siam.org/toc/sjoce3/15/2
+
+- year: 1991
+  title: 5th Copper Mountain Conference On Multigrid Methods
 
 - year: 1990
   url: http://grandmaster.colorado.edu/~copper/Copper_1st/
@@ -204,3 +210,21 @@
   journal: SIAM Journal on Scientific and Statistical Computing
   journal-abbv: SISC
   journal-url: http://epubs.siam.org/toc/sijcd4/13/1
+
+- year: 1989
+  title: 4th Copper Mountain Conference On Multigrid Methods
+
+- year: 1987
+  title: 3rd Copper Mountain Conference On Multigrid Methods
+
+- year: 1985
+  title: 2nd Copper Mountain Conference On Multigrid Methods
+  journal: Applied Mathematics and Computation
+  journal-abbv: AMC
+  journal-url: https://www.sciencedirect.com/journal/applied-mathematics-and-computation/vol/19/issue/1
+
+- year: 1983
+  title: International Multigrid Conference (a.k.a. the 1st Copper Mountain Conference On Multigrid Methods)
+  journal: Applied Mathematics and Computation
+  journal-abbv: AMC
+  journal-url: https://www.sciencedirect.com/journal/applied-mathematics-and-computation/vol/13/issue/3
