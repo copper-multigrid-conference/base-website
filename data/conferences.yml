@@ -7,9 +7,14 @@
   status:
   dates:
 
-- year: 2021
-  title: 20th Copper Mountain Conference On Multigrid Methods
+- year: 2022
+  title: 16th Copper Mountain Conference On Multigrid Methods (Virtual)
   status: current
+  dates: April 4 - April 8, 2022
+  url: http://grandmaster.colorado.edu/copper/2022/
+
+- year: 2021
+  title: 20th Copper Mountain Conference On Multigrid Methods (Virtual)
   dates: March 29 - April 2, 2021
   url: http://grandmaster.colorado.edu/copper/2021/
 
@@ -22,6 +27,9 @@
   title: 19th Copper Mountain Conference On Multigrid Methods
   dates: March 24 - March 28, 2019
   url: http://grandmaster.colorado.edu/~copper/2019/
+  journal: Numerical Linear Algebra with Applications
+  journal-abbv: NLAA
+  journal-url: https://onlinelibrary.wiley.com/toc/10991506/2021/28/3
 
 - year: 2018
   title: 15th Copper Mountain Conference On Iterative Methods
@@ -185,6 +193,9 @@
 
 - year: 1995
   title: 7th Copper Mountain Conference On Multigrid Methods
+  journal: National Aeronautics and Space Administration
+  journal-abbv: NASA
+  journal-url: https://books.google.com/books?id=WcAhAQAAIAAJ
 
 - year: 1994
   title: 3rd Copper Mountain Conference On Iterative Methods
@@ -194,6 +205,9 @@
 
 - year: 1993
   title: 6th Copper Mountain Conference On Multigrid Methods
+  journal: National Aeronautics and Space Administration
+  journal-abbv: NASA
+  journal-url: https://books.google.com/books/about/Sixth_Copper_Mountain_Conference_on_Mult.html?id=823MyAEACAAJ
 
 - year: 1992
   title: 2nd Copper Mountain Conference on Iterative Methods in Numerical Linear Algebra
@@ -213,6 +227,9 @@
 
 - year: 1989
   title: 4th Copper Mountain Conference On Multigrid Methods
+  journal: SIAM
+  journal-abbv: SIAM
+  journal-url: https://books.google.com/books?id=60heNv0ZPuQC
 
 - year: 1987
   title: 3rd Copper Mountain Conference On Multigrid Methods
