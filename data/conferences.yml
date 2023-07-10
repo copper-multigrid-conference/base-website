@@ -8,9 +8,19 @@
   status:
   dates:
 
+- year: 2024
+  title: 18th Copper Mountain Conference On Iterative Methods
+  status: current
+  dates: April 14 - April 19, 2023
+  url: https://grandmaster.colorado.edu/copper/2024/
+
+- year: 2023
+  title: 21st Copper Mountain Conference On Multigrid Methods
+  dates: April 16 - April 20, 2023
+  url: https://grandmaster.colorado.edu/copper/2023/
+
 - year: 2022
   title: 17th Copper Mountain Conference On Iterative Methods (Virtual)
-  status: current
   dates: April 4 - April 8, 2022
   url: https://grandmaster.colorado.edu/copper/2022/
 
@@ -18,14 +28,17 @@
   title: 20th Copper Mountain Conference On Multigrid Methods (Virtual)
   dates: March 29 - April 2, 2021
   url: https://grandmaster.colorado.edu/copper/2021/
+  journal: SIAM Journal on Scientific Computing
+  journal-abbv: SISC
+  journal-url: https://epubs.siam.org/toc/sjoce3/45/3
 
 - year: 2020
-  title: (Cancelled) 16th Copper Mountain Conference On Iterative Methods
+  title: 16th Copper Mountain Conference On Iterative Methods (Cancelled)
   dates: March 21 - 26, 2020 (Saturday - Thursday)
   url: https://grandmaster.colorado.edu/copper/2020/
   journal: SIAM Journal on Scientific Computing
   journal-abbv: SISC
-  journal-url: https://epubs.siam.org/toc/sjoce3/45/3
+  journal-url: https://epubs.siam.org/toc/sjoce3/43/5
 
 - year: 2019
   title: 19th Copper Mountain Conference On Multigrid Methods
