@@ -104,7 +104,13 @@
             </td>
             <td>
               {% if c.journal %}
-              <span class="fa fa-book"></span> <a href="{{c['journal-url']}}"> {{c['journal-abbv']}} Special Issue </a>
+              <span class="fa fa-book"></span>
+              <a href="{{c['journal-url']}}"> {{c['journal-abbv']}} Special Issue </a>
+              {% endif %}
+              {% if c['journal-url2'] %}
+              <br/>
+              <span class="fa fa-book"></span>
+              <a href="{{c['journal-url2']}}"> {{c['journal-abbv']}} Special Issue, part 2 </a>
               {% endif %}
             </td>
           </tr>
